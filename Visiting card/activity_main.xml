@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"
+    android:elevation="4dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shahala Nushri"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#E91E63"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/textViewAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="KMCT ENGINEERING COLLEGE"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_below="@id/textViewName"
+        android:layout_marginBottom="4dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kallenthond, Kozhikode"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_below="@id/textViewAddress"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email: ighaa@gmail.com"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_below="@id/textViewLocation"
+        android:layout_marginBottom="4dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone: 9988775566"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_below="@id/textViewEmail"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewStudent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student-KMCTEC"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_below="@id/textViewPhone"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/textViewStudent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/images" />
+
+</RelativeLayout>
